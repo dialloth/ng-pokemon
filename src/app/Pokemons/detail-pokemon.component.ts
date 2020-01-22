@@ -6,7 +6,7 @@ import { PokemonsService } from './pokemons.service';
 
 @Component({
 	selector: 'detail-pokemon',
-	templateUrl: './app/pokemons/detail-pokemon.component.html',
+	templateUrl: './app/pokemons/detail-pokemon.component.html'
 	// providers: [PokemonsService]
 })
 export class DetailPokemonComponent implements OnInit {

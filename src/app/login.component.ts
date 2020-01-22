@@ -23,7 +23,7 @@ import { AuthService } from './auth.service';
 	      </div>
 	    </form>
       <div class="card-action center">
-        <a (click)="login()" class="waves-effect waves-light btn"  *ngIf="!authService.isLoggedIn">Se connecter</a>
+        <a (click)="login()" class="waves-effect waves-light btn" *ngIf="!authService.isLoggedIn">Se connecter</a>
         <a (click)="logout()" *ngIf="authService.isLoggedIn">Se déconnecter</a>
       </div>
     </div>
